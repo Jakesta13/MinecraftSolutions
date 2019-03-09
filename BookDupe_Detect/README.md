@@ -15,6 +15,8 @@ All you would need to do is look through the NBT data for INV or EnderChest Item
 You also have the added bonus of being able to view the coordinates where they were detected, so you may view in-game.
 
 
+You could also attach the IFTTT webhook to send a message to discord using discord's webhooks.
+
 # Dependancies
 The following are all required.
 * IFTTT account with a webhook applet created for this
