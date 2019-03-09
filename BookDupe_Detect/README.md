@@ -12,6 +12,8 @@ which is very unusual for a playerdata file (usual sizes vary around 7kb).
 The player file that triggered the detector will get uploaded to a FTP server that you specify so that in the case where
 the player tries to destroy/hide all evidence of the books, you will have a cached copy of the moment it was caught.
 All you would need to do is look through the NBT data for INV or EnderChest Items matching a book with 50 pages of characters.
+You also have the added bonus of being able to view the coordinates where they were detected, so you may view in-game.
+
 
 # Dependancies
 The following are all required.
