@@ -12,4 +12,4 @@ as you can find them before they place them in a chest (outside of their NBT pla
 It will upload a copy of their data file for your viewing, as the player can easily dump the book while you have a copy of
 when they had it on them or in their ender chest.
 
-[BookDupe Detector](BookDupe_detector/README.md)
+[BookDupe Detector](https://github.com/Jakesta13/MinecraftSolutions/blob/master/BookDupe_Detect/README.md)
