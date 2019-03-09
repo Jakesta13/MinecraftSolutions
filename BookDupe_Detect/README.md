@@ -1,6 +1,6 @@
 ## BookDupe Detector
-This script will aid in catching players with one or more of the needed resources to execute the common duplication bug in your minecraft server.
-The script has to be ran on the machine hosting the minecraft server, or you'll need to constantly need an up-to-date download of all playerdata files on the machine you wish to run it on.
+This script will aid in catching players with one or more of the needed resources to abuse an exploit that allows someone to duplicate anything within a chunk.
+The script has to be ran on the machine hosting the minecraft server, or you'll need have an up-to-date download of all playerdata files on the machine you wish to run it on (this may not scale well).
 
 # What?
 The script checks for player data files which are larger than a specific size (default, 20kb)
@@ -20,4 +20,5 @@ The following are all required.
 * Minecraft server
 
 You will also need an NBT viewer of your choice.
-You could try [DriveHQ}(https://drivehq.com) for the FTP server as you get 1GB free, whcih is plenty.
+
+You could try [DriveHQ](https://drivehq.com) for the FTP server as you get 1GB free, which is plenty.
