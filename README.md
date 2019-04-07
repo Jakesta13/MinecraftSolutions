@@ -19,4 +19,4 @@ when they had it on them or in their ender chest.
 Notifies over HTTP when there is a new minecraft update.
 I decided to make this because mojang has REMOVED minecraft's RSS feed.
 
-[UpdateNotify](https://github.com/Jakesta13/MinecraftSolutions/blob/master/UpdateNofity/README.md)
+[UpdateNotify](https://github.com/Jakesta13/MinecraftSolutions/tree/master/UpdateNotify)
