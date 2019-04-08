@@ -44,6 +44,12 @@ if [ ! -e "${BASE_DIR}/Snapshot.txt" ]; then
 	touch "${BASE_DIR}/Snapshot.txt"
 fi
 
+# Echoing updates to file
+echo ${snapshot} > ${BASE_DIR}/Snapshot.txt
+echo ${released} > ${BASE_DIR}/Release.txt
+
+
+
 # Checking if md5 files exist
 if [ ! -e "${BASE_DIR}/Release.md5" ]; then
 	md5sum "${BASE_DIR}/Release.txt" > "${BASE_DIR}/Release.md5"
