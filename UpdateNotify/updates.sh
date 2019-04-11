@@ -65,6 +65,7 @@ if md5sum -c "${BASE_DIR}/Release.md5" >/dev/null; then
 else
 	echo New Released Update
 	Rupdate=y
+	md5sum "${BASE_DIR}/Release.txt" > "${BASE_DIR}/Release.md5"
 fi
 
 if md5sum -c "${BASE_DIR}/Snapshot.md5" >/dev/null; then
@@ -72,6 +73,7 @@ if md5sum -c "${BASE_DIR}/Snapshot.md5" >/dev/null; then
 else
 	echo New Snapshot Update
 	Supdate=y
+	md5sum "${BASE_DIR}/Snapshot.txt" > "${BASE_DIR}/Snapshot.md5"
 fi
 
 # If there is an update for Released, then send HTTP requests
