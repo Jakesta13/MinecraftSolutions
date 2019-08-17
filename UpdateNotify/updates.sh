@@ -84,6 +84,11 @@ else
 	echo "No Update.. Doing nothing"
 fi
 
+# If a full-release is released, then set snapshot release to 'n' to avoid double messages.
+if [ "$Rupdate" == "y" ]; then
+        Supdate=n
+fi
+
 # If there is an update for Snapshot, then send HTTP requests.
 if [ "$Supdate" == "y" ]; then
         echo "Sending notification for Released update...."
