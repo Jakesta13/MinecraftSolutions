@@ -13,6 +13,9 @@ e.g Send a different welcome message.
 * Will work cross-language, as 'MineChat' is the name of the app and has no translation for it.
 * Regular players can trigger it by saying 'MineChat', but only if the M and the C is capitalized.
 
+## To-Do
+* Add minor redundancies to invalid settings
+
 ## Requirements:
 * Linux server running a [minecraft server](http://minecraft.net/download/server/) and is accessable via SSH.
 * To have both script.sh and 2script.sh in the same directory.
@@ -26,3 +29,4 @@ e.g Send a different welcome message.
 ## Disclaimer
 I am personally using an earlier version of this script, and I cleaned it up for easier use by the public but I have not tried this with the edits.
 It should still work fine, I didn't add features -- only settings and vairables in-place of manual commands.
+
