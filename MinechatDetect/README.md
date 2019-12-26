@@ -1,5 +1,5 @@
 # MineChat message detector
-This script is to react to the default login message that MineChat outputs.
+This script is to react to the default login message that MineChat outputs.  
 e.g Send a different welcome message.
 
 ## How to run
@@ -27,6 +27,6 @@ e.g Send a different welcome message.
 * [mcrcon](https://github.com/Tiiffi/mcrcon) - We need this in order to send rcon commands to the server to execute a function.
 
 ## Disclaimer
-I am personally using an earlier version of this script, and I cleaned it up for easier use by the public but I have not tried this with the edits.
+I am personally using an earlier version of this script, and I cleaned it up for easier use by the public but I have not tried this with the edits.  
 It should still work fine, I didn't add features -- only settings and vairables in-place of manual commands.
 
