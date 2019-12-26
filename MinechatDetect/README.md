@@ -16,7 +16,7 @@ e.g Send a different welcome message.
 ## To-Do
 * Add minor redundancies to invalid settings
 
-## Requirements:
+# Requirements:
 * Linux server running a [minecraft server](http://minecraft.net/download/server/) and is accessable via SSH.
 * To have both script.sh and 2script.sh in the same directory.
 * Have a id_rsa file for the SSH host.
