@@ -20,3 +20,11 @@ Notifies over HTTP when there is a new minecraft update.
 I decided to make this because mojang has REMOVED minecraft's RSS feed.
 
 [UpdateNotify](https://github.com/Jakesta13/MinecraftSolutions/tree/master/UpdateNotify)
+
+## MineChat message detector
+
+Lets you react to players loging into the server with MineChat
+(as long as they have lite edition, or pro with the default login)
+* Works across languages.
+
+[MinechatDetect](https://github.com/Jakesta13/MinecraftSolutions/tree/master/MinechatDetect)
