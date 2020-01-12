@@ -5,11 +5,14 @@ IP="${1}"
 port="${2}"
 pass="${3}"
 
-## Function passover settings
+## Function pass-over settings
 mcfunction="${4}"
 
-## Directory passover settings
+## Directory pass-over settings
 dir="${5}"
+
+# While true delay pass-over settings
+delay="${6}"
 
 # 2script.sh Requires:
 # Script.sh - Part 1, this will give us an output.
@@ -29,5 +32,5 @@ while true; do
 	while read line; do mcrcon -H "${IP}" -P "${port}" -p "${pass}" "execute as ${line} run function ${mcfunction}"; done < latest.log
 	# Moved this to the while true loop, as it can send the rcon command out in bulk rather than one at a time.
 	echo "" -n > "${dir}/latest.log"
-	sleep 0.5
+	sleep ${delay}
 	done
