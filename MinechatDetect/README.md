@@ -27,6 +27,5 @@ e.g Send a different welcome message.
 * [mcrcon](https://github.com/Tiiffi/mcrcon) - We need this in order to send rcon commands to the server to execute a function.
 
 ## Disclaimer
-I am personally using an earlier version of this script, and I cleaned it up for easier use by the public but I have not tried this with the edits.  
-It should still work fine, I didn't add features -- only settings and vairables in-place of manual commands.
-
+I have not fully tested this version of the script, as I am using an original without the variable settings and it is working fine ..  
+The one posted here only has the options as variable settings within the script, nothing else has been changed thus it should stil work as intended.

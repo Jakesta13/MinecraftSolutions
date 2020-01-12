@@ -10,4 +10,4 @@ tmux_name1=LogGrabber
 # http://github.com/jakesta13
 ### ### ### ### ### ###
 
-tmux new -d -s "${tmux_name1}" "unbuffer ${BASE_DIR}/script.sh > latest.log"
+tmux new -d -s "${tmux_name1}" "unbuffer ${BASE_DIR}/script.sh > ${BASE_DIR}/latest.log"
